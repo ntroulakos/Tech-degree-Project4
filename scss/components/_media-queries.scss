@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $media-width) {
 
     .container {
       max-width: 1400px;
@@ -83,10 +83,9 @@
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
-    }
-    
-    .nav-link {
-      flex-basis: 100px;
+      &-link {
+        flex-basis: 100px;
+      }
     }
     
     .btn {
